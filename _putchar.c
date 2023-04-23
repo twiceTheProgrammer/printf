@@ -1,13 +1,22 @@
+#include "main.h"
 #include <unistd.h>
-
-/**
- * _putchar - writes chars to stdout stream
- * @c: char to send to output stream
- *
- * Return: int 
- */
 
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+    static char buffer[1024];
+    static int index;
+
+    if (c == -1 || index >= 1024)
+    {
+        write(1, &buffer, index);
+        index = 0;
+    }
+
+    if (c != -1)
+    {
+        buffer[index] = c;
+        index++;
+    }
+
+    return (1);
 }
