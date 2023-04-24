@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * _printf - prints to output stream 
+ * @format: formatted string
+ *
+ *
+ * Return: int 
+ */
+
 int _printf(const char *format, ...)
 {
 	int (*pfunc)(va_list, flags_t *);

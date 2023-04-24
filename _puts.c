@@ -1,6 +1,14 @@
 #include "main.h"
 #include <unistd.h>
 
+/**
+ * _puts - prints string 
+ * @s: param
+ * 
+ * 
+ * Return: int 
+ */
+
 int _puts(char *s)
 {
     register int index;

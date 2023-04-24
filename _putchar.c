@@ -1,6 +1,13 @@
 #include "main.h"
 #include <unistd.h>
 
+/**
+ * _putchar - prints char 
+ * @c: param
+ *
+ * 
+ * Return: int 
+ */
 int _putchar(char c)
 {
     static char buffer[1024];
