@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * get_flag - turn on flag 
+ * get_flag - turn on flag
  * @s: param
- * 
- * @f: param 
- * Return: int 
+ * @f: param
+ * Return: int
  */
 int get_flag(char s, flags_t *f)
 {

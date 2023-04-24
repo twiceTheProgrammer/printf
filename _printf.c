@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _printf - prints to output stream 
+ * _printf - prints to output stream
  * @format: formatted string
  *
  *
- * Return: int 
+ * Return: int
  */
 
 int _printf(const char *format, ...)
@@ -41,5 +41,6 @@ int _printf(const char *format, ...)
 	}
 	_putchar(-1);
 	va_end(arguments);
+
 	return (count);
 }

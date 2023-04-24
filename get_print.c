@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * get_print - get related func arg to execute for printf
- * @s: param
- * 
- * 
- * Return: int 
- */
+* get_print - get related func arg to exec
+* @s: param
+* Return: int
+*/
 int (*get_print(char s))(va_list, flags_t *)
 {
 	ph func_arr[] = {
