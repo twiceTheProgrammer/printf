@@ -15,7 +15,7 @@ int print_d(va_list l, flags_t *f)
 	if (f->plus == 1 && f->plus == 0 && n >= 0)
 		res += _putchar (' ');
 	if (f->plus == 1 && n >= 0)
-		res += _putchsr('+');
+		res += _putchar('+');
 	if (n <= 0)
 		res++;
 	print_n(n);
