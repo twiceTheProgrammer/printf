@@ -37,4 +37,6 @@ int print_s(va_list l, flags_t *f);
 int print_c(va_list l, flags_t *f);
 int _putchar(char c);
 int _puts(char *s);
+int print_d(va_list l, flags_t *f);
+void print_n(int n);
 #endif

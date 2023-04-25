@@ -9,7 +9,9 @@ int (*get_print(char s))(va_list, flags_t *)
 {
 	ph func_arr[] = {
 		{'c', print_c},
-		{'s', print_s}
+		{'s', print_s},
+		{'d', print_d},
+		{'i', print_d}
 	};
 	int flags = 14;
 
